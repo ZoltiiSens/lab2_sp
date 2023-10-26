@@ -14,3 +14,13 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
+
+int Calculator::Sqd (double a)
+{
+	return a * a;
+}
+
+int Calculator::Smth (double a, double b)
+{
+	return a * b - a - b;
+}
